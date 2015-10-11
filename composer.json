@@ -1,0 +1,29 @@
+{
+  "name": "ctlaravel/gol",
+  "description": "Game Of Life",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CTLaravel\\GoL\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/"
+    ]
+  },
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Jonathan Abrahams",
+      "email": "email@example.com"
+    }
+  ]
+}
